@@ -1,5 +1,6 @@
-import { PencilSimpleLine } from 'phosphor-react'
+import { Avatar } from './Avatar'
 import styles from './Sidebar.module.css'
+import { PencilSimpleLine } from 'phosphor-react'
 
 export function Sidebar() {
     return (
@@ -10,9 +11,8 @@ export function Sidebar() {
             />
 
             <div className={styles.profile}>
-                <img
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQEDBxBHiJMZpQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718923504911?e=1732752000&v=beta&t=Yk9CP9fCKl3-6FUOtjwQjRvZrGC9LF76OOvMRrc90vw"
-                    className={styles.avatar}
+                <Avatar 
+                    src={"https://media.licdn.com/dms/image/v2/D4D03AQEDBxBHiJMZpQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718923504911?e=1732752000&v=beta&t=Yk9CP9fCKl3-6FUOtjwQjRvZrGC9LF76OOvMRrc90vw"}
                 />
                 <strong>Mateus Matos</strong>
                 <span>Developer</span>
